@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  username: postgres
+  password: postgres
+  host: localhost
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: sachiko_development
+
+test:
+  <<: *default
+  database: sachiko_test
+
+production:
+  <<: *default
+  database: sachiko
