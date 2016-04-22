@@ -9,6 +9,10 @@ gem 'uglifier', '~> 3.0.0'
 gem 'jbuilder', '~> 2.4.1'
 gem 'dotenv-rails', '~> 2.1.1'
 
+# Elasticsearch
+gem 'elasticsearch-model', '~> 0.1.8'
+gem 'elasticsearch-rails', '~> 0.1.8'
+
 group :development, :test do
   gem 'pry-rails', '~> 0.3.4'
   gem 'pry-byebug', '~> 3.3.0'
